@@ -110,7 +110,7 @@ body {
 }
 
 .container_right {
-    background-image: url(/FlexHome/asset/background-image.png);
+    background-image: url(../asset/background-image.png);
     overflow: hidden;
     background-size: cover;
 }
