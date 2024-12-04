@@ -69,6 +69,11 @@ body {
     transform: translateX(-50%);
 }
 
+.icon_tower {
+    width: 36rem;
+    height: 36rem;
+}
+
 .img_tower {
     width: 334rem;
     height: 588rem;
