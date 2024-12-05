@@ -5,6 +5,7 @@
         }
 
         .container {
+            aspect-ratio: 480/1066;
             width: unset;
             height: 100vh;
         }
@@ -16,6 +17,7 @@
         }
 
         .container {
+            aspect-ratio: 480/1066;
             width: 100vw;
             height: unset;
         }
@@ -23,7 +25,6 @@
 
     .container {
         grid-template-columns: 384rem 96fr;
-        aspect-ratio: 480/1066;
     }
 
     .container_left {
