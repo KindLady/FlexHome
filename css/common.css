@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 .mt_36 {
     margin-top: 36rem;
 }
@@ -71,7 +70,7 @@
 }
 
 .bd_r {
-    border-right: 1px solid rgba(59, 59, 59, 1);
+    border-right: 1rem solid rgba(59, 59, 59, 1);
 }
 
 .wh_18 {
@@ -79,13 +78,11 @@
     height: 18rem;
 }
 
-
-
 .circle {
     width: 48rem;
     height: 48rem;
     border-radius: 50%;
-    border: 1px solid rgba(59, 59, 59, 1);
+    border: 1rem solid rgba(59, 59, 59, 1);
     display: grid;
     place-items: center;
 }
@@ -116,7 +113,7 @@
     width: 384rem;
     height: 210rem;
     background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1rem solid rgba(255, 255, 255, 1);
     border-radius: 8rem;
     justify-content: space-evenly;
 }
@@ -178,7 +175,6 @@
     }
 }
 
-
 @media (max-width: 480px) {
     .mt_mb_12 {
         margin-top: 12rem;
@@ -205,7 +201,6 @@
         padding-right: 18rem;
     }
 
-
     .pdr_mb_24 {
         padding-right: 24rem;
     }
@@ -218,36 +213,26 @@
         margin-right: 24rem;
     }
 
-    .wh_arrow_mb {
-        width: 36rem;
-        height: 12rem;
-    }
-
-
     .circle_mb {
         width: 36rem;
         height: 36rem;
         border-radius: 50%;
-        border: 1px solid rgba(59, 59, 59, 1);
+        border: 1rem solid rgba(59, 59, 59, 1);
         display: grid;
         place-items: center;
     }
-
 
     .bg_black_mb {
         background-color: rgba(59, 59, 59, 1)
     }
 
-
     .white_text_mb {
         color: rgba(255, 255, 255, 1);
     }
 
-
     .black_text_mb {
         color: rgba(59, 59, 59, 1);
     }
-
 
     .mr_mb_12 {
         margin-right: 12rem;
@@ -261,7 +246,6 @@
         display: none;
     }
 
-
     .flex_mb {
         flex-direction: column;
     }
@@ -270,6 +254,4 @@
         flex-wrap: nowrap;
         gap: 30rem;
     }
-
-
 }

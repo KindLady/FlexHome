@@ -2,31 +2,19 @@
     html {
         font-size: 0.09765625vh;
     }
-
-    .container {
-        aspect-ratio: 768/1024;
-        width: unset;
-        height: 100vh;
-    }
 }
 
 @media (max-width: 1024px) and (max-aspect-ratio: 768/1024) {
     html {
         font-size: 0.1302083333333333vw;
     }
-
-    .container {
-        aspect-ratio: 768/1024;
-        width: 100vw;
-        height: unset;
-    }
 }
 
 @media (max-width : 1024px) {
-
     .container {
         grid-template-columns: 670rem 98fr;
-
+        width: 768rem;
+        aspect-ratio: 768/1024;
     }
 
     .container_left {
@@ -40,5 +28,4 @@
     .footer_right {
         height: 232rem;
     }
-
 }

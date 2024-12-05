@@ -2,39 +2,26 @@
     html {
         font-size: 0.0952380952380952vh;
     }
-
-    .container {
-        aspect-ratio: 1940/1050;
-        width: unset;
-        height: 100vh;
-    }
 }
 
 @media (min-width: 1024px) and (max-aspect-ratio: 1940/1050) {
     html {
         font-size: 0.0515463917525773vw;
     }
-
-    .container {
-        aspect-ratio: 1940/1050;
-        width: 100vw;
-        height: unset;
-    }
 }
 
 .container {
     display: grid;
     grid-template-columns: 670rem 1270fr;
-}
-
-html {
-    background-color: black;
+    width: 1940rem;
+    aspect-ratio: 1940/1050;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
+    background-color: black;
 }
 
 .container_left {
@@ -44,19 +31,19 @@ body {
 .select_tower {
     width: 574rem;
     height: 60rem;
-    border-top: 1px solid rgba(59, 59, 59, 1);
-    border-bottom: 1px solid rgba(59, 59, 59, 1)
+    border-top: 1rem solid rgba(59, 59, 59, 1);
+    border-bottom: 1rem solid rgba(59, 59, 59, 1)
 }
 
 .tower {
     height: 36rem;
-    border-right: 1px solid rgba(59, 59, 59, 1)
+    border-right: 1rem solid rgba(59, 59, 59, 1)
 }
 
 .choose {
     position: relative;
-    border-top: 1px solid rgba(59, 59, 59, 1);
-    border-bottom: 1px solid rgba(59, 59, 59, 1);
+    border-top: 1rem solid rgba(59, 59, 59, 1);
+    border-bottom: 1rem solid rgba(59, 59, 59, 1);
     flex-wrap: wrap;
     gap: 24rem;
     padding-top: 18rem;
@@ -105,10 +92,6 @@ body {
     width: 698rem;
     height: 624rem;
     margin-top: 72rem;
-}
-
-.arrow_down {
-    transform: rotate(180deg);
 }
 
 .container_right {

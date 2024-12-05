@@ -2,32 +2,19 @@
     html {
         font-size: 0.0937505859411621vh;
     }
-
-    .container {
-        aspect-ratio: 480/1066.66;
-        width: unset;
-        height: 100vh;
-    }
 }
 
 @media (max-width: 480px) and (max-aspect-ratio: 480/1066) {
     html {
         font-size: 0.2083333333333333vw;
     }
-
-    .container {
-        aspect-ratio: 480/1066.66;
-        width: 100vw;
-        height: unset;
-    }
 }
 
-
-
 @media (max-width: 480px) {
-
     .container {
         grid-template-columns: 384rem 96fr;
+        width: 480rem;
+        aspect-ratio: 480/1066.66;
     }
 
     .container_left {
@@ -42,7 +29,6 @@
     .tower {
         height: 24rem;
     }
-
 
     .choose {
         width: 300rem;
@@ -59,14 +45,6 @@
         margin-right: 0;
     }
 
-    .arrow_left {
-        transform: rotate(-90deg);
-    }
-
-    .arrow_right {
-        transform: rotate(90deg);
-    }
-
     .hidden_mb {
         display: flex;
     }
@@ -74,9 +52,9 @@
     .select_floor_mb {
         position: relative;
         width: 300rem;
-        border-top: 1px solid rgba(59, 59, 59, 1);
-        border-bottom: 1px solid rgba(59, 59, 59, 1);
-        align-items: baseline;
+        border-top: 1rem solid rgba(59, 59, 59, 1);
+        border-bottom: 1rem solid rgba(59, 59, 59, 1);
+        align-items: center;
     }
 
     .body_left {
@@ -94,5 +72,10 @@
 
     .mr_mb_0 {
         margin-right: 0;
+    }
+
+    .wh_arrow {
+        width: 12rem;
+        height: 36rem;
     }
 }
