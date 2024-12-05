@@ -1,4 +1,4 @@
-@media (min-width: 1025px) and (min-aspect-ratio: 1940/1050) {
+@media (min-width: 1024px) and (min-aspect-ratio: 1940/1050) {
     html {
         font-size: 0.0952380952380952vh;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-@media (min-width: 1025px) and (max-aspect-ratio: 1940/1050) {
+@media (min-width: 1024px) and (max-aspect-ratio: 1940/1050) {
     html {
         font-size: 0.0515463917525773vw;
     }
@@ -64,6 +64,7 @@ body {
 }
 
 .choose_floor {
+    color: rgba(59, 59, 59, 1);
     position: absolute;
     top: -10rem;
     left: 50%;
@@ -134,5 +135,5 @@ body {
 }
 
 .border_change {
-    border-radius: 0;
+    border-radius: 8rem 0 0 8rem;
 }

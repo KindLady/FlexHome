@@ -1,4 +1,4 @@
-@media (max-width: 480px) and(min-aspect-ratio: 480/1066) {
+@media (max-width: 480px) and (min-aspect-ratio: 480/1066) {
     html {
         font-size: 0.0937505859411621vh;
     }
