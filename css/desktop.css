@@ -24,7 +24,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 670fr 1270fr;
+    grid-template-columns: 670rem 1270fr;
 }
 
 html {
@@ -131,4 +131,8 @@ body {
 
 .width_change {
     width: 22rem;
+}
+
+.border_change {
+    border-radius: 0;
 }

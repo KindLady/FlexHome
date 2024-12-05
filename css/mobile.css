@@ -1,27 +1,30 @@
+@media (max-width: 480px) and(min-aspect-ratio: 480/1066) {
+    html {
+        font-size: 0.0937505859411621vh;
+    }
+
+    .container {
+        aspect-ratio: 480/1066.66;
+        width: unset;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 480px) and (max-aspect-ratio: 480/1066) {
+    html {
+        font-size: 0.2083333333333333vw;
+    }
+
+    .container {
+        aspect-ratio: 480/1066.66;
+        width: 100vw;
+        height: unset;
+    }
+}
+
+
+
 @media (max-width: 480px) {
-    @media (max-width: 480px) and(min-aspect-ratio: 480/1066) {
-        html {
-            font-size: 0.0937505859411621vh;
-        }
-
-        .container {
-            aspect-ratio: 480/1066;
-            width: unset;
-            height: 100vh;
-        }
-    }
-
-    @media (max-width: 480px) and (max-aspect-ratio: 480/1066) {
-        html {
-            font-size: 0.2083333333333333vw;
-        }
-
-        .container {
-            aspect-ratio: 480/1066;
-            width: 100vw;
-            height: unset;
-        }
-    }
 
     .container {
         grid-template-columns: 384rem 96fr;
